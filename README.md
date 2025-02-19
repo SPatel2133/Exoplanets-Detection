@@ -22,7 +22,7 @@ Detecting exoplanets is a challenging task, traditionally relying on computation
 
 ## Dataset
 
-The project uses the Kepler cumulative table (`cumulative.csv`) available [here](link-to-dataset). This dataset contains time-series light curve data along with various stellar and planetary parameters for thousands of observed stars.  Preprocessing steps include:
+The project uses the Kepler cumulative table (`cumulative.csv`) available [here]([link-to-dataset](https://docs.google.com/spreadsheets/d/1FXjO1HUBDWklhtGZ0h60l1s4NJtU0bpkgdCQ_DJQsOo/edit?usp=sharing)). This dataset contains time-series light curve data along with various stellar and planetary parameters for thousands of observed stars.  Preprocessing steps include:
 
 * Removing irrelevant columns (e.g., star names, Kepler IDs).
 * Handling missing values (currently using removal via `dropna()`, but other strategies can be explored).
@@ -63,28 +63,6 @@ The model's performance is evaluated using the following metrics:
 * (AUC, ROC Curve if calculated)
 
 
-
-## Results
-
-(Summarize your findings. Include the average accuracy across all folds, the confusion matrix, and other metrics. Discuss any insights from the results.  Include graphs/visualizations if possible).
-
-
-## Conclusion and Future Work
-
-(Summarize the project's achievements and limitations. Discuss potential future improvements, such as using different CNN architectures, hyperparameter optimization, or alternative data preprocessing strategies.)
-
-
-
-## Getting Started
-
-
-1. Clone this repository: `git clone https://github.com/your-username/exoplanet-detection-cnn.git`
-2. Install the required dependencies (see below).
-3. Download the dataset (`cumulative.csv`) and place it in the project directory.
-4. Run the Jupyter notebook: `jupyter notebook exoplanet_detection.ipynb`
-
-
-
 ## Dependencies
 
 * Python 3.x
@@ -95,5 +73,3 @@ The model's performance is evaluated using the following metrics:
 * Matplotlib
 * Seaborn
 
-
-(Specify version numbers for key libraries if you've pinned them for reproducibility).
