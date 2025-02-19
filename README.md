@@ -17,6 +17,7 @@ This project demonstrates the application of a 1D Convolutional Neural Network (
 Detecting exoplanets is a challenging task, traditionally relying on computationally intensive methods. This project leverages the power of deep learning to automate and improve the accuracy of exoplanet detection. The CNN model learns to recognize patterns in light curve data that are indicative of planetary transits. Using data collected by the Kepler Space Telescope, we can create a prediction which is 96% accurate on whether an exoplanet is circulating a star 🌟
 
 
+
 ## Dataset
 
 The project uses the Kepler cumulative table (`cumulative.csv`) available [here](https://docs.google.com/spreadsheets/d/1FXjO1HUBDWklhtGZ0h60l1s4NJtU0bpkgdCQ_DJQsOo/edit?usp=sharing). This dataset contains time-series light curve data along with various stellar and planetary parameters for thousands of observed stars.  Preprocessing steps include:
