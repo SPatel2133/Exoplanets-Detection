@@ -9,9 +9,6 @@ This project demonstrates the application of a 1D Convolutional Neural Network (
 * [Model Architecture](#model-architecture)
 * [Training Process](#training-process)
 * [Evaluation Metrics](#evaluation-metrics)
-* [Results](#results)
-* [Conclusion and Future Work](#conclusion-and-future-work)
-* [Getting Started](#getting-started)
 * [Dependencies](#dependencies)
 
 
